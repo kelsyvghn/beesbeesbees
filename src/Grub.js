@@ -1,5 +1,5 @@
 var Grub = function() {  // Create a Grub class, in pseudoclassical style, with:
-
+  Grub.prototype.constructor = Grub;
   // an age property that is set to 0
   this.age = 0;
   // a color property that is set to pink
